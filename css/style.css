@@ -1,0 +1,923 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.Main_div {
+  background: #fff;
+  color: 0;
+}
+.Main_div .poster {
+  width: 100%;
+  background: url("../img/repair3-slider-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 715px;
+  display: inline-block;
+}
+.Main_div .poster .poster_main {
+  width: 95%;
+  margin: 0 auto;
+}
+.Main_div .poster .poster_main .header {
+  margin: 40px 0px;
+}
+.Main_div .poster .poster_main .header .header-img {
+  float: left;
+}
+.Main_div .poster .poster_main .header .header-link {
+  float: right;
+}
+.Main_div .poster .poster_main .header .header-link a {
+  background: #111113;
+  width: 42px;
+  margin-right: 15px;
+  display: inherit;
+}
+.Main_div .poster .poster_main .header .header-link a i {
+  color: #ffffff;
+  font-family: "Archivo", Arial, Tahoma, sans-serif;
+  font-size: 29px;
+  line-height: 45px;
+  font-weight: 400;
+  font-style: italic;
+  text-align: center;
+  width: 40px;
+}
+.Main_div .poster .poster_main .header-describe {
+  margin-left: -80px;
+  margin-top: 100px;
+  display: inline-block;
+}
+.Main_div .poster .poster_main .header-describe h2 {
+  color: #111113;
+  font-family: Viga;
+  font-size: 80px;
+  line-height: 85px;
+  font-weight: 400;
+  text-align: left;
+}
+.Main_div .poster .poster_main .header-button {
+  margin-left: 80px;
+}
+.Main_div .poster .poster_main .header-button .btn1 {
+  background: #007AFF;
+  color: #fff;
+  font-family: Viga;
+  font-size: 17px;
+  line-height: 40px;
+  font-weight: 400;
+  text-align: left;
+  padding: 8px 30px;
+  border-radius: 25px;
+  margin-right: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.Main_div .poster .poster_main .header-button .btn2 {
+  background: #EBEBEB;
+  color: #000;
+  font-family: Viga;
+  font-size: 17px;
+  line-height: 40px;
+  font-weight: 400;
+  text-align: left;
+  padding: 8px 30px;
+  border-radius: 25px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.Main_div .About {
+  width: 100%;
+  background: url("../img/repair3-pattern-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1232px;
+  display: inline-block;
+}
+.Main_div .About .About_main {
+  width: 80%;
+  margin: 0 auto;
+}
+.Main_div .About .About_main .About_margin {
+  margin: 100px 0px;
+}
+.Main_div .About .About_main .About_margin .About_heading {
+  width: 100%;
+}
+.Main_div .About .About_main .About_margin .About_heading .Heading-left {
+  float: left;
+}
+.Main_div .About .About_main .About_margin .About_heading .Heading-left h5 {
+  color: #fcdc31;
+  font-family: "Viga", Arial, Tahoma, sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 700;
+}
+.Main_div .About .About_main .About_margin .About_heading .Heading_right {
+  float: left;
+  margin-left: 190px;
+}
+.Main_div .About .About_main .About_margin .About_heading .Heading_right h2 {
+  color: #ffffff;
+  font-family: "Viga", Arial, Tahoma, sans-serif;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 700;
+}
+.Main_div .About .About_main .About_margin .About_bottom {
+  width: 100%;
+  display: inline-block;
+}
+.Main_div .About .About_main .About_margin .About_bottom .bottom_left {
+  width: 25%;
+  float: left;
+}
+.Main_div .About .About_main .About_margin .About_bottom .bottom_left h1 {
+  color: #fcdc31;
+  font-family: "Viga", Arial, Tahoma, sans-serif;
+  font-size: 70px;
+  line-height: 75px;
+  font-weight: 400;
+}
+.Main_div .About .About_main .About_margin .About_bottom .bottom_left p {
+  color: #888889;
+  font-family: "Archivo", Arial, Tahoma, sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+}
+.Main_div .About .About_main .margin_bottom {
+  width: 100%;
+}
+.Main_div .About .About_main .margin_bottom .margin_left {
+  width: 50%;
+  float: left;
+}
+.Main_div .About .About_main .margin_bottom .margin_left img {
+  width: 100%;
+}
+.Main_div .About .About_main .margin_bottom .margin_right {
+  width: 50%;
+  float: left;
+}
+.Main_div .About .About_main .margin_bottom .margin_right .right_margin {
+  margin: 60px;
+}
+.Main_div .About .About_main .margin_bottom .margin_right .right_margin p {
+  color: #ffffff;
+  font-family: "Archivo", Arial, Tahoma, sans-serif;
+  font-size: 15px;
+  line-height: 27px;
+  font-weight: 400;
+}
+.Main_div .About .About_main .margin_bottom .margin_right .right_margin a {
+  background: #007AFF;
+  color: #fff;
+  margin-top: 40px;
+  display: inline-block;
+  font-family: Viga;
+  font-size: 17px;
+  line-height: 40px;
+  font-weight: 400;
+  text-align: left;
+  padding: 5px 35px;
+  border-radius: 25px;
+  margin-right: 20px;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.Main_div .Services {
+  width: 84%;
+  background: url("../img/repair3-home-section-yellow-bg3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 465px;
+  display: inline-block;
+}
+.Main_div .Services .Services_main {
+  margin-left: 145px;
+}
+.Main_div .Services .Services_main .Services_margin {
+  margin: 70px 0;
+}
+.Main_div .Services .Services_main .Services_margin .Services_text {
+  width: 100%;
+}
+.Main_div .Services .Services_main .Services_margin .Services_text .Services_left {
+  width: 38%;
+  float: left;
+}
+.Main_div .Services .Services_main .Services_margin .Services_text .Services_left h5 {
+  color: #111113;
+  font-family: "Viga", Arial, Tahoma, sans-serif;
+  font-size: 15px;
+  font-height: 25px;
+  font-weight: 700;
+}
+.Main_div .Services .Services_main .Services_margin .Services_text .Services_right {
+  margin-right: 70px;
+  width: 54%;
+  float: left;
+}
+.Main_div .Services .Services_main .Services_margin .Services_text .Services_right h2 {
+  color: #111113;
+  font-family: "Viga", Arial, Tahoma, sans-serif;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 700;
+}
+.Main_div .Services .Services_main .Services_margin .Services_text .Services_right p {
+  color: #000000;
+  margin-top: 20px;
+  font-family: "Archivo", Arial, Tahoma, sans-serif;
+  font-size: 15px;
+  line-height: 27px;
+  font-weight: 400;
+  display: inline-block;
+}
+.Main_div .Work {
+  width: 100%;
+  display: inline-block;
+}
+.Main_div .Work .Work_main {
+  width: 80%;
+  margin: 0 auto;
+}
+.Main_div .Work .Work_main .Work_margin {
+  margin: 110px 0;
+  display: inline-block;
+}
+.Main_div .Work .Work_main .Work_margin .work_details {
+  width: 100%;
+}
+.Main_div .Work .Work_main .Work_margin .work_details .work_left {
+  width: 33.33%;
+  float: left;
+  padding: 0px 40px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.Main_div .Work .Work_main .Work_margin .work_details .work_left h4 {
+  color: #111113;
+  font-family: "Viga", Arial, Tahoma, sans-serif;
+  font-size: 21px;
+  line-height: 31px;
+  font-weight: 500;
+}
+.Main_div .Work .Work_main .Work_margin .work_details .work_left p {
+  color: #888889;
+  font-family: "Archivo", Arial, Tahoma, sans-serif;
+  font-size: 15px;
+  line-height: 27px;
+  font-weight: 400;
+}
+.Main_div .Housing {
+  width: 100%;
+  display: inline-block;
+}
+.Main_div .Housing .Housing_left {
+  width: 50%;
+  float: left;
+}
+.Main_div .Housing .Housing_left img {
+  width: 100%;
+  height: 620px;
+}
+.Main_div .Housing .Housing_right {
+  width: 50%;
+  float: left;
+}
+.Main_div .Housing .Housing_right .Housing_main {
+  width: 80%;
+  margin: 0 auto;
+}
+.Main_div .Housing .Housing_right .Housing_main .Housing_margin {
+  margin-right: 145px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  display: inline-block;
+}
+.Main_div .Housing .Housing_right .Housing_main .Housing_margin .header_top {
+  color: #f0f0f0;
+  font-family: "Viga", Arial, Tahoma, sans-serif;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 700;
+}
+.Main_div .Housing .Housing_right .Housing_main .Housing_margin .header_bottom {
+  color: #111113;
+  font-family: "Viga", Arial, Tahoma, sans-serif;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 700;
+}
+.Main_div .Housing .Housing_right .Housing_main .Housing_margin p {
+  color: #888889;
+  font-family: "Archivo", Arial, Tahoma, sans-serif;
+  font-size: 15px;
+  line-height: 27px;
+  font-weight: 400;
+}
+.Main_div .Housing .Housing_right .Housing_main .Housing_margin a {
+  background: #007AFF;
+  color: #fff;
+  margin-top: 40px;
+  display: inline-block;
+  font-family: Viga;
+  font-size: 17px;
+  line-height: 40px;
+  font-weight: 400;
+  text-align: left;
+  padding: 5px 35px;
+  border-radius: 25px;
+  margin-right: 20px;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.Main_div .Themeforest {
+  margin-top: -10px;
+  width: 100%;
+  background: url("../img/repair3-home-test-bg2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 480px;
+  display: inline-block;
+}
+.Main_div .Themeforest .Themeforest_main {
+  width: 80%;
+  margin: 0 auto;
+}
+.Main_div .Themeforest .Themeforest_main .Themeforest_margin {
+  margin: 110px 0px;
+}
+.Main_div .Themeforest .Themeforest_main .Themeforest_margin .image {
+  text-align: center;
+}
+.Main_div .Themeforest .Themeforest_main .Themeforest_margin .paragraph {
+  text-align: center;
+  margin: 0 70px;
+}
+.Main_div .Themeforest .Themeforest_main .Themeforest_margin .paragraph p {
+  color: #ffffff;
+  font-family: "Archivo", Arial, Tahoma, sans-serif;
+  font-size: 17px;
+  line-height: 25px;
+  font-style: italic;
+  font-weight: 400;
+  text-align: center;
+}
+.Main_div .Themeforest .Themeforest_main .Themeforest_margin .Dot {
+  text-align: center;
+}
+.Main_div .Themeforest .Themeforest_main .Themeforest_margin .Dot span {
+  color: #FCDC31;
+  margin-right: 5px;
+}
+.Main_div .Themeforest .Themeforest_main .Themeforest_margin .author {
+  text-align: center;
+}
+.Main_div .Themeforest .Themeforest_main .Themeforest_margin .author h5 {
+  color: #ffffff;
+  font-family: "Viga", Arial, Tahoma, sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 700;
+}
+.Main_div .Themeforest .Themeforest_main .Themeforest_margin .author p {
+  color: #dedede;
+  font-family: "Archivo", Arial, Tahoma, sans-serif;
+  font-size: 15px;
+  line-height: 27px;
+  font-weight: 400;
+  margin: -20px 0px;
+}
+.Main_div .Bottom {
+  width: 100%;
+  background: #121212;
+  border-bottom: 1px solid #202020;
+  padding: 80px 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: inline-block;
+}
+.Main_div .Bottom .Bottom_main {
+  width: 80%;
+  margin: 0 auto;
+}
+.Main_div .Bottom .Bottom_main .Bottom_padding {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.Main_div .Bottom .Bottom_main .Bottom_padding .Total_div {
+  width: 100%;
+}
+.Main_div .Bottom .Bottom_main .Bottom_padding .Total_div .paragraph1 {
+  width: 33.33%;
+  float: left;
+}
+.Main_div .Bottom .Bottom_main .Bottom_padding .Total_div .paragraph1 h4 {
+  color: #ffffff;
+  font-family: "Viga", Arial, Tahoma, sans-serif;
+  font-size: 21px;
+  line-height: 31px;
+  font-weight: 500;
+  text-align: start;
+}
+.Main_div .Bottom .Bottom_main .Bottom_padding .Total_div .paragraph1 h4 .themecolour {
+  color: #fcdc31;
+  font-family: "Viga", Arial, Tahoma, sans-serif;
+}
+.Main_div .Bottom .Bottom_main .Bottom_padding .Total_div .paragraph1 h2 {
+  color: #fcdc31;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  font-family: "Viga", Arial, Tahoma, sans-serif;
+}
+.Main_div .Bottom .Bottom_main .Bottom_padding .Total_div .paragraph1 p {
+  color: #808080;
+  font-family: "Archivo", Arial, Tahoma, sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+}
+.Main_div .Bottom .Bottom_main .Bottom_padding .Total_div .paragraph1 .para {
+  font-size: 15px;
+}
+.Main_div .Bottom_down {
+  width: 100%;
+  background: #121212;
+  padding: 12px 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: inline-block;
+  margin-top: -3px;
+  margin-bottom: -5px;
+}
+.Main_div .Bottom_down .Bottom_down-main {
+  width: 80%;
+  margin: 0 auto;
+}
+.Main_div .Bottom_down .Bottom_down-main .Bottom_down-marg .main {
+  width: 100%;
+}
+.Main_div .Bottom_down .Bottom_down-main .Bottom_down-marg .main .text {
+  float: left;
+}
+.Main_div .Bottom_down .Bottom_down-main .Bottom_down-marg .main .text p {
+  color: #808080;
+  font-family: "Archivo", Arial, Tahoma, sans-serif;
+  font-size: 15px;
+  line-height: 27px;
+  font-weight: 400;
+  text-align: start;
+}
+.Main_div .Bottom_down .Bottom_down-main .Bottom_down-marg .main .text p a {
+  color: #E5C404;
+  text-decoration: none;
+}
+.Main_div .Bottom_down .Bottom_down-main .Bottom_down-marg .main .text p a:hover {
+  text-decoration: underline;
+}
+.Main_div .Bottom_down .Bottom_down-main .Bottom_down-marg .main .social {
+  float: right;
+}
+.Main_div .Bottom_down .Bottom_down-main .Bottom_down-marg .main .social ul {
+  list-style-type: none;
+}
+.Main_div .Bottom_down .Bottom_down-main .Bottom_down-marg .main .social ul li {
+  display: inline;
+}
+.Main_div .Bottom_down .Bottom_down-main .Bottom_down-marg .main .social ul li i {
+  color: #808080;
+  font-size: 20px;
+  margin-left: 10px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 1200px) {
+  .Main_div .poster {
+    height: 675px;
+  }
+
+  .Main_div .poster .poster_main .header-describe {
+    margin-left: -140px;
+  }
+
+  .Main_div .poster .poster_main .header-button {
+    margin-left: 40px;
+  }
+
+  .Main_div .About .About_main {
+    width: 75%;
+  }
+
+  .Main_div .About .About_main .About_margin .About_bottom .bottom_left p {
+    font-size: 17px;
+  }
+
+  .Main_div .About .About_main .margin_bottom .margin_left img {
+    height: 550px;
+  }
+
+  .Main_div .Services .Services_main .Services_margin .Services_text .Services_left h5 {
+    margin-left: 0px;
+  }
+
+  .Main_div .Services .Services_main .Services_margin .Services_text .Services_left {
+    width: 36%;
+    float: left;
+  }
+
+  .Main_div .Work .Work_main .Work_margin .work_details .work_left {
+    padding: 0px 25px;
+  }
+
+  .Main_div .Work .Work_main .Work_margin .work_details .work_left p {
+    font-size: 14px;
+  }
+
+  .Main_div .Housing .Housing_left img {
+    height: 665px;
+  }
+
+  .Main_div .Housing .Housing_right .Housing_main .Housing_margin {
+    margin-right: 72px;
+  }
+
+  .Main_div .Bottom .Bottom_main {
+    width: 72%;
+  }
+
+  .Main_div .Bottom .Bottom_main .Bottom_padding .Total_div .paragraph1 h4 {
+    font-size: 18px;
+  }
+
+  .Main_div .Bottom .Bottom_main .Bottom_padding .Total_div .paragraph1 h2 {
+    font-size: 33px;
+  }
+
+  .Main_div .Bottom_down {
+    margin-top: -4px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .Main_div .poster .poster_main {
+    width: 93%;
+  }
+
+  .Main_div .poster .poster_main .header-describe {
+    margin-left: -150px;
+  }
+
+  .Main_div .poster .poster_main .header-button {
+    margin-left: 32px;
+  }
+
+  .Main_div .About .About_main {
+    width: 94%;
+  }
+
+  .Main_div .About .About_main .margin_bottom .margin_left img {
+    height: 570px;
+  }
+
+  .Main_div .Services .Services_main {
+    margin-left: 30px;
+  }
+
+  .Main_div .Services {
+    width: 75%;
+  }
+
+  .Main_div .Services .Services_main .Services_margin .Services_text .Services_right {
+    width: 75%;
+  }
+
+  .Main_div .Work .Work_main {
+    width: 92%;
+  }
+
+  .Main_div .Work .Work_main .Work_margin .work_details .work_left {
+    padding: 0px 20px;
+  }
+
+  .Main_div .Themeforest .Themeforest_main .Themeforest_margin .paragraph {
+    margin: 0 30px;
+  }
+
+  .Main_div .Bottom .Bottom_main {
+    width: 92%;
+  }
+
+  .Main_div .Bottom_down .Bottom_down-main {
+    width: 92%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .Main_div .poster .poster_main {
+    width: 92%;
+  }
+
+  .Main_div .poster .poster_main .header-describe {
+    margin-left: -182px;
+  }
+
+  .Main_div .poster .poster_main .header-describe h2 {
+    width: 500px;
+  }
+
+  .Main_div .About .About_main {
+    width: 90%;
+  }
+
+  .Main_div .About .About_main .About_margin .About_bottom .bottom_left h1 {
+    font-size: 50px;
+  }
+
+  .Main_div .About .About_main .About_margin .About_bottom .bottom_left p {
+    font-size: 14px;
+    line-height: 23px;
+  }
+
+  .Main_div .About .About_main .About_margin .About_heading .Heading_right h2 {
+    font-size: 35px;
+    line-height: 44px;
+  }
+
+  .Main_div .About .About_main .About_margin .About_heading .Heading_right {
+    float: left;
+    margin-left: 120px;
+  }
+
+  .Main_div .About .About_main .margin_bottom .margin_right .right_margin {
+    margin: 40px;
+    margin-right: 20px;
+  }
+
+  .Main_div .About .About_main .margin_bottom .margin_right .right_margin p {
+    font-size: 13px;
+    line-height: 22px;
+  }
+
+  .Main_div .About .About_main .margin_bottom .margin_left img {
+    height: 560px;
+  }
+
+  .Main_div .About {
+    height: 1175px;
+  }
+
+  .Main_div .Services .Services_main .Services_margin .Services_text .Services_left h5 {
+    font-size: 13px;
+  }
+
+  .Main_div .Services {
+    width: 70%;
+  }
+
+  .Main_div .Services .Services_main .Services_margin .Services_text .Services_right h2 {
+    font-size: 34px;
+    line-height: 44px;
+  }
+
+  .Main_div .Services .Services_main .Services_margin .Services_text .Services_right p {
+    font-size: 13px;
+    line-height: 21px;
+  }
+
+  .Main_div .Services .Services_main .Services_margin .Services_text .Services_right {
+    width: 80%;
+  }
+
+  .Main_div .Work .Work_main {
+    width: 90%;
+  }
+
+  .Main_div .Work .Work_main .Work_margin .work_details .work_left h4 {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .Main_div .Work .Work_main .Work_margin .work_details .work_left p {
+    font-size: 13px;
+    line-height: 22px;
+  }
+
+  .Main_div .Housing .Housing_right .Housing_main .Housing_margin .header_top {
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  .Main_div .Housing .Housing_right .Housing_main .Housing_margin .header_bottom {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .Main_div .Housing .Housing_right .Housing_main .Housing_margin p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .Main_div .Themeforest .Themeforest_main .Themeforest_margin .paragraph p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .Main_div .Bottom .Bottom_main .Bottom_padding .Total_div .paragraph1 h4 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .Main_div .Bottom .Bottom_main .Bottom_padding .Total_div .paragraph1 h2 {
+    font-size: 28px;
+  }
+
+  .Main_div .Bottom .Bottom_main .Bottom_padding .Total_div .paragraph1 p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .Main_div .Bottom .Bottom_main .Bottom_padding .Total_div .paragraph1 .para {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .Main_div .Bottom .Bottom_main {
+    width: 90%;
+  }
+
+  .Main_div .Bottom_down .Bottom_down-main {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .Main_div .poster .poster_main {
+    width: 94%;
+  }
+
+  .Main_div .poster .poster_main .header-describe h2 {
+    width: 350px;
+  }
+
+  .Main_div .poster .poster_main .header-describe h2 {
+    font-size: 52px;
+    line-height: 60px;
+  }
+
+  .Main_div .poster .poster_main .header-button {
+    margin-left: 0px;
+  }
+
+  .Main_div .About .About_main {
+    width: 80%;
+  }
+
+  .Main_div .About .About_main .About_margin .About_heading .Heading_right {
+    float: left;
+    margin-left: -70px;
+    margin-top: 50px;
+  }
+
+  .Main_div .About .About_main .About_margin .About_heading .Heading_right h2 {
+    font-size: 31px;
+    line-height: 40px;
+  }
+
+  .Main_div .About .About_main .About_margin .About_bottom .bottom_left {
+    width: 100%;
+  }
+
+  .Main_div .About .About_main .About_margin .About_bottom .bottom_left p {
+    font-size: 14px;
+    line-height: 23px;
+    margin-top: -30px;
+  }
+
+  .Main_div .About {
+    height: 1960px;
+  }
+
+  .Main_div .About .About_main .margin_bottom .margin_left {
+    width: 100%;
+  }
+
+  .Main_div .About .About_main .margin_bottom .margin_right {
+    width: 100%;
+  }
+
+  .Main_div .About .About_main .margin_bottom .margin_right .right_margin {
+    margin: 20px;
+  }
+
+  .Main_div .About .About_main .margin_bottom .margin_right .right_margin p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .Main_div .About .About_main .margin_bottom .margin_right .right_margin a {
+    padding: 2px 30px;
+  }
+
+  .Main_div .Services {
+    width: 60%;
+    height: 400px;
+  }
+
+  .Main_div .Services .Services_main .Services_margin .Services_text .Services_right h2 {
+    font-size: 20px;
+    line-height: 34px;
+  }
+
+  .Main_div .Work .Work_main {
+    width: 82%;
+  }
+
+  .Main_div .Work .Work_main .Work_margin .work_details .work_left {
+    padding: 16px;
+    width: 100%;
+  }
+
+  .Main_div .Work .Work_main .Work_margin .work_details .work_left p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .Main_div .Housing .Housing_left {
+    width: 100%;
+  }
+
+  .Main_div .Housing .Housing_right {
+    width: 100%;
+  }
+
+  .Main_div .Housing .Housing_right .Housing_main {
+    width: 90%;
+    margin: -20px auto;
+  }
+
+  .Main_div .Housing .Housing_right .Housing_main .Housing_margin a {
+    padding: 2px 30px;
+    margin-bottom: 40px;
+  }
+
+  .Main_div .Housing .Housing_right .Housing_main .Housing_margin p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .Main_div .Themeforest .Themeforest_main .Themeforest_margin .paragraph {
+    margin: 25px 0px;
+  }
+
+  .Main_div .Themeforest .Themeforest_main {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .Main_div .Themeforest .Themeforest_main .Themeforest_margin .paragraph p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .Main_div .Bottom .Bottom_main .Bottom_padding .Total_div .paragraph1 {
+    width: 100%;
+  }
+
+  .Main_div .Bottom .Bottom_main .Bottom_padding .Total_div .paragraph1 {
+    width: 100%;
+    margin-left: 20px;
+  }
+
+  .Main_div .Bottom_down {
+    margin-top: -3px;
+  }
+
+  .Main_div .Bottom_down .Bottom_down-main {
+    width: 70%;
+  }
+
+  .Main_div .Bottom_down .Bottom_down-main .Bottom_down-marg .main .text p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .Main_div .Bottom_down .Bottom_down-main .Bottom_down-marg .main .social {
+    width: 80%;
+    text-align: center;
+    float: none;
+  }
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*# sourceMappingURL=style.css.map */
